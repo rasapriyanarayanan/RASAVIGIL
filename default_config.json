@@ -1,0 +1,53 @@
+{
+  "threshold_seconds": 300,
+  "grace_seconds": 20,
+  "idle_seconds": 120,
+  "repeat_interval_seconds": 120,
+  "poll_interval_seconds": 1.0,
+
+  "snooze_minutes": 5,
+  "max_snoozes_per_day": 2,
+
+  "restrictions": {
+    "enabled": true,
+    "start_at_warning_level": 3,
+    "action": "minimize",
+    "daily_distraction_limit_minutes": 60
+  },
+
+  "overlay": {
+    "strict_from_level": 2,
+    "lock_seconds": 10,
+    "play_sound": true
+  },
+
+  "daily_report_time": "21:00",
+  "open_report_automatically": true,
+
+  "distraction": {
+    "apps": [
+      "netflix.exe", "steam.exe", "epicgameslauncher.exe", "valorant.exe",
+      "robloxplayerbeta.exe", "minecraft.exe", 
+      "primevideo.exe", "tiktok.exe", "twitch.exe"
+    ],
+    "title_keywords": [
+      "youtube", "instagram", "facebook", "netflix", "reddit", "tiktok",
+      "twitch", "snapchat", "prime video", "hotstar", "jiocinema",
+      "9gag", "pinterest", "9anime", "crunchyroll", "twitter"
+    ]
+  },
+
+  "productive": {
+    "apps": [
+      "code.exe", "pycharm64.exe", "idea64.exe", "devenv.exe", "eclipse.exe",
+      "winword.exe", "excel.exe", "powerpnt.exe", "onenote.exe", "acrord32.exe",
+      "notepad++.exe", "windowsterminal.exe", "cmd.exe", "powershell.exe",
+      "obsidian.exe", "notion.exe", "anki.exe", "matlab.exe", "jupyter-notebook.exe"
+    ],
+    "title_keywords": [
+      "github", "stack overflow", "leetcode", "coursera", "nptel", "udemy",
+      "documentation", "docs", "kaggle", "colab", "jupyter", "hugging face",
+      "tutorial", "lecture", "course", "lesson", "how to"
+    ]
+  }
+}
